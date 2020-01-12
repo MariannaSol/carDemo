@@ -1,0 +1,120 @@
+.divStyle {
+	width:750px;
+	height:350px;
+}
+
+.car-size {
+	width:750px;
+	height:350px;
+}
+
+.bg-car-style {
+	background: url(design/effect_car_bg.png);
+	width:100%;
+}
+.style-rims-block {
+	background-image: url(design/Reshotka1.png);
+	max-width: 1280px;
+    min-width: 1280px;
+	height: 550px;
+	top: 150px;
+}
+#change_bg {
+	width: 167px;
+	height: 26px;
+}
+
+#change_car {
+    width: 165px;
+	height: 25px;
+}
+
+.bg_set {
+	background: rgba(249, 191, 0, 0.7);
+}
+
+#disk_bar {
+	max-width: 1280px;
+    min-width: 1280px;
+	height: 300px;
+	margin-top: 27px;
+}
+
+div {
+	position:relative;
+}
+
+.glow-btn {
+	background: rgba(0, 0, 0, 0.3);
+	color: white;
+	border: 1px solid #ffaf00;
+}
+
+.glow-btn:hover {
+	color: #ffaf00;
+	box-shadow: 0 0 10px rgba(255,175,0,.6),
+				inset 0 0 10px rgba(255,194,61,1);
+}
+
+.btn-control {
+	font-family: sans-serif, Georgia, Tahoma, Arial;
+	max-width: 167px;
+    min-width: 167px;
+    width: 167px;
+	height: 25px;
+}
+
+.btn-hover:hover {
+	color: #ffaf00;
+}
+
+#up:hover, #down:hover {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+		box-shadow: 0 0 30px rgba(255,175,0,.6),
+		inset 0 0 10px rgba(255,194,61,1);
+}
+
+#up:focus, #down:focus, #change_car:focus, #about_rim:focus, #text1:focus {
+	outline:none !important;
+}
+
+.ui-glowing:hover {
+   -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+	-webkit-box-shadow:
+	0 0 20px rgba(83,23,139,.6),
+	inset 0 0 20px rgba(255,174,0,1);
+	-moz-box-shadow:
+	0 0 20px rgba(83,23,139,.6),
+	inset 0 0 20px rgba(255,174,0,1);
+	box-shadow:
+	0 0 20px rgba(83,23,139,.6),
+	inset 0 0 20px rgba(255,174,0,1);
+}
+
+.ui-glowing-click {
+
+   -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+	-webkit-box-shadow:
+	0 0 20px rgba(83,23,139,.6),
+	inset 0 0 20px rgba(255,174,0,1);
+	-moz-box-shadow:
+	0 0 20px rgba(83,23,139,.6),
+	inset 0 0 20px rgba(255,174,0,1);
+	box-shadow:
+	0 0 20px rgba(83,23,139,.6),
+	inset 0 0 20px rgba(255,174,0,1);
+}

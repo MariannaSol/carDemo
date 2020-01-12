@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Audi Q7</title>
+  <script type="text/javascript">
+	var rims_icon_names = new Array("Audi_Q7/AG 0611301.png", "Audi_Q7/GW 0105210.png",
+									"Audi_Q7/GW 0105225.png", "Audi_Q7/GW 0105249.png",
+									"Audi_Q7/GW 0105252.png", "Audi_Q7/GW 0105297.png",
+									"Audi_Q7/GW 0105302.png", "Audi_Q7/IW 1108710.png",
+									"Audi_Q7/KK 3200029.png", "Audi_Q7/KK 3200034.png",
+									"Audi_Q7/KK 3200041.png", "Audi_Q7/KK 3200042.png",
+									"Audi_Q7/RAU19905560PMG.png", "Audi_Q7/RAU20905160PLN.png",
+									"Audi_Q7/RPO19855050PNO.png", "Audi_Q7/RPO20115570PNO.png",
+									"Audi_Q7/RPO20900660PSX.png", "Audi_Q7/RPO20905160PSO.png",
+									"Audi_Q7/RPO20905460PNO.png", "Audi_Q7/RPO21105150PYO.png",
+									"Audi_Q7/RPO21105445PIO.png", "Audi_Q7/RPO21105450PYO.png",
+									"Audi_Q7/RVO18804045KFA.png", "Audi_Q7/RVO20905160PDO.png",
+									"Audi_Q7/RVO20905160PSO.png", "Audi_Q7/RVO21105950PMGM.png",
+									"Audi_Q7/RVO21105950PSO.png", "Audi_Q7/VN 2908901.png",
+									"Audi_Q7/VW 7152561.png", "Audi_Q7/VW 7152577.png",
+									"Audi_Q7/Н0001724.png", "Audi_Q7/Н0030973.png",
+									"Audi_Q7/Н0030976.png", "Audi_Q7/Н0031072.png",
+									"Audi_Q7/Н0031073.png", "Audi_Q7/Н0031094.png",
+									"Audi_Q7/Н0034791.png");
+
+	var rims = new Array("Audi_Q7/AG 0611301_01.png", "Audi_Q7/GW 0105210_02.png",
+								"Audi_Q7/GW 0105225_03.png", "Audi_Q7/GW 0105249_04.png",
+								"Audi_Q7/GW 0105252_05.png", "Audi_Q7/GW 0105297_06.png",
+								"Audi_Q7/GW 0105302_07.png", "Audi_Q7/IW 1108710_08.png",
+								"Audi_Q7/KK 3200029_09.png", "Audi_Q7/KK 3200034_10.png",
+								"Audi_Q7/KK 3200041_11.png", "Audi_Q7/KK 3200042_12.png",
+								"Audi_Q7/RAU19905560PMG_13.png", "Audi_Q7/RAU20905160PLN_14.png",
+								"Audi_Q7/RPO19855050PNO_15.png", "Audi_Q7/RPO20115570PNO_16.png",
+								"Audi_Q7/RPO20900660PSX_17.png", "Audi_Q7/RPO20905160PSO_18.png",
+								"Audi_Q7/RPO20905460PNO_19.png", "Audi_Q7/RPO21105150PYO_20.png",
+								"Audi_Q7/RPO21105445PIO_21.png", "Audi_Q7/RPO21105450PYO_22.png",
+								"Audi_Q7/RVO18804045KFA_23.png", "Audi_Q7/RVO20905160PDO_24.png",
+								"Audi_Q7/RVO20905160PSO_25.png", "Audi_Q7/RVO21105950PMGM_26.png",
+								"Audi_Q7/RVO21105950PSO_27.png", "Audi_Q7/VN 2908901_28.png",
+								"Audi_Q7/VW 7152561_29.png", "Audi_Q7/VW 7152577_30.png",
+								"Audi_Q7/Н0001724_31.png", "Audi_Q7/Н0030973_32.png",
+								"Audi_Q7/Н0030976_33.png", "Audi_Q7/Н0031072_34.png",
+								"Audi_Q7/Н0031073_35.png", "Audi_Q7/Н0031094_36.png",
+								"Audi_Q7/Н0034791_37.png");
+  </script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+  <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+  <link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+<body style="background-color: #000000; color: white">
+	<div id="car_container" align="center">
+ 		<div>
+		<img src="design/default_bg.png" height="520px" id="car_bg">
+			<div style="top: -522px; margin-bottom: -100px; z-index: 5; height: 100px;">
+				<img src="design/effect_car_bg.png" height="522px">
+				<div id="info" style="top:-70px;">
+					<img src="design/description.png" id="description"/>
+				</div>
+
+				<div style="top:-170px; right:471px">
+						<!-- <input type="image" src="design/change_car.png" /> -->
+						<div id="change_car" class="btn-control btn-hover bg_set"> <<Назад к выбору авто </div>
+				</div>
+
+				<div class="" style="top:-195px; left:473px; z-index: 5;">
+					<div id="about_rim" class="btn-control btn-hover bg_set"> Подробнее о диске>> </div>
+				</div>
+
+				<div id="change_bg" style="right:473px; top:-585px; margin-bottom: -440px; z-index: 5;">
+					<div class="glow-btn btn-control" style="top: -30px;">Сменить фон</div>
+				</div>
+			</div>
+
+			<div style="top: -470px; margin-bottom: -440px; z-index: 5;">
+				<img src="Audi_Q7/Audi_Q7.png" id="audi" class="car-size"/>
+			</div>
+
+			<div style="top: -380px; margin-bottom: -440px; z-index: 5;">
+				<img src="Audi_Q7/AG 0611301_01.png" name="pic" id="p00" class="car-size">
+			</div>
+
+		</div><br>
+
+		<div class="style-rims-block"><br>
+			<div>
+				<input type="image" src="design/btn-up.png" id="up"/>
+			</div>
+
+			<div id="disk_bar">
+					<div id="page0">
+					</div>
+			</div>
+
+			<div style="top:60px">
+				<input type="image" src="design/btn-down.png" id="down"/>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
+<script type="text/javascript" src="script-code-generation.js"></script>
